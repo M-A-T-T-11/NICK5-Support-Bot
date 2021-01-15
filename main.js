@@ -40,8 +40,10 @@ client.on('message', message => {
         client.commands.get('acpr').execute(message, args);
     } else if (command == 'mute') {
         client.commands.get('mute').execute(message, args);
+    } else if (command == 'unmute') {
+        client.commands.get('unmute').execute(message, args);
     }
 
 });
 
-client.login('Nzk4MjU1NTA3NDQ5MTg0MjY2.X_yXXw.OSf012YJzza2bqgkpVUuOLEnwHk');
+client.login('Nzk4MjU1NTA3NDQ5MTg0MjY2.X_yXXw.phRiWxU1UWB3_vahEyQrII1NUWQ');
